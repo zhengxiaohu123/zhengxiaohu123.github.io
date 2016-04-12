@@ -1,0 +1,19 @@
+body{
+	background-image: url(bg.jpg);
+background-repeat: no-repeat;
+background-position: 50% 0;
+background-color: #182341;
+}
+h1{
+	text-align: center;
+	color: #fff;
+	font-size:32px;
+	border-bottom:1px white solid;
+	width:700px;
+	padding-bottom:5px;
+	margin-bottom:10px auto;
+	background-color:rgba(100, 0, 0, 0.5)
+}
+p{
+color: #EEE;
+}
