@@ -94,6 +94,8 @@ body {
 .left {
     width: 655px;
     float: left;
+    border-right: 1px #ccc solid;
+    margin:5px 5px;
 }
 
 .channel-nav,
@@ -176,21 +178,20 @@ body {
     line-height: 1.5;
     margin: 8px 0;
 }
-
+.foot{
+    margin:20px 0;
+    padding:20px 0;
+    border-top: 1px #ccc solid;
+    border-bottom:1px #ccc solid;
+}
 .foot p{
     color: #999;
     font-size:14px;
     font-family: '宋体';
     margin-top: 10px
-    padding:5px;
 }
 
 .left img {
     text-align: center;
 }
-.line_dotted{
-    height: 5px;
-   border-top: 1px  solid;
-   padding-bottom: 5px
-   color: #999
-}
+   
