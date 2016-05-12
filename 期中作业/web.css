@@ -92,10 +92,10 @@ body {
 }
 
 .left {
-    width: 655px;
+    width: 640px;
     float: left;
     border-right: 1px #ccc solid;
-    margin:5px 5px;
+    padding-right: 14px;
 }
 
 .channel-nav,
@@ -178,20 +178,140 @@ body {
     line-height: 1.5;
     margin: 8px 0;
 }
-.foot{
-    margin:20px 0;
-    padding:20px 0;
-    border-top: 1px #ccc solid;
-    border-bottom:1px #ccc solid;
-}
-.foot p{
-    color: #999;
-    font-size:14px;
-    font-family: '宋体';
-    margin-top: 10px
-}
+
 
 .left img {
     text-align: center;
 }
-   
+   /* 右部区域 */
+   .aside{
+    width:295px;
+    padding:10px 10px;
+    float:left;
+   }
+.bshare-custom{
+    margin: 30px 0;
+}
+h2{
+    color: #7C1121;
+    text-align: center;
+    border: 1px #ccc solid;
+    font-family:"黑体"；
+}
+.ThermalTxt ul li.Comment_0 {
+    background-position: 0px 0px;
+}
+.ThermalTxt ul li.Comment_1 {
+    background-position: 0px -23px;
+}
+.ThermalTxt ul li.Comment_2 {
+    background-position: 0px -46px;
+}
+.ThermalTxt ul li.Comment_3 {
+    background-position: 0px -69px;
+}
+.ThermalTxt ul li.Comment_4 {
+    background-position: 0px -92px;
+}
+.ThermalTxt ul li.Comment_5 {
+    background-position: 0px -115px;
+}
+.ThermalTxt ul li.Comment_6 {
+    background-position: 0px -138px;
+}
+.ThermalTxt ul li.Comment_7 {
+    background-position: 0px -161px;
+}
+.ThermalTxt ul li.Comment_8 {
+    background-position: 0px -184px;
+}
+.ThermalTxt ul li.Comment_9 {
+    background-position: 0px -207px;
+}
+
+.ThermalTxt ul a{
+    text-decoration: none;
+    color: #000;
+    font-family: "宋体";
+    font-size: 12px;
+    line-height: 1.5;
+
+}
+.ThermalTxt ul li{
+    list-style-type: none;
+    background: url(http://i.guancha.cn/images/detail/comment_list.jpg) 
+    no-repeat;
+    height: 17px;
+    padding-left: 26px;
+    margin-bottom: 6px;
+    overflow: hidden;
+}
+
+.ThermalTitle{
+    border: 1px #ccc solid;
+    margin: 10px 5px;
+}
+
+/* 相关新闻区域 */
+.relation{
+  border-top: 1px #cccccc solid; 
+  border-bottom: 1px #ccc solid;
+  margin:20px 0;
+  padding:20px 0; 
+}
+.topic-img {
+    width:204px;
+    height:151px;
+    float: left;
+    margin-right: 20px;
+}
+.topic-img img{
+    border: 1px black solid;
+    width: 200px;
+    height: 129px;
+}
+
+.news-list{
+    float:left;
+    width:400px;
+    height: 151px;
+}
+div.news-list p.topic-nav{
+    color: #7C1121;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Microsoft Yahei";
+}
+.news-list ul {
+    list-style-type: disc;
+    color: #7C1121;
+    line-height: 1.8;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.news-list li a {
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+    font-family: "黑体";
+} 
+
+/* 页脚 */
+.foot {
+    border-top: 10px #918F7A solid;
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+    line-height: 1.5;
+}
+
+.foot span {
+    margin: 0 8px;
+}
+
+.foot a {
+    color: #888;
+    text-decoration: none;
+}
