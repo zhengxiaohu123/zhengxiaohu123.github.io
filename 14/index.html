@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CSS动画练习</title>
+    <link rel="stylesheet" href="">
+    <style>
+    .card-container {
+        cursor: pointer;
+        height: 150px;
+        perspective: 200;
+        position: relative;
+        width: 150px;
+    }
+    
+    .card:hover {
+        transform: rotateY(180deg);
+    }
+    
+    .card {
+        height: 100%;
+        position: absolute;
+        transform-style: preserve-3d;
+        transition: all 0.3s ease-in-out;
+        width: 100%;
+    }
+    
+    .side {
+        backface-visibility: hidden;
+        border-radius: 20px;
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .back {
+        background: #eaeaed;
+        color: #0087cc;
+        line-height: 150px;
+        text-align: center;
+        transform: rotateY(180deg);
+    }
+    
+    img {
+        height: 100%;
+        width: 100%;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="card-container">
+        <div class="card">
+            <div class="side">
+                <img src="http://p2.so.qhimg.com/t015394c190793570e7.jpg" alt="夕阳下的风景">
+            </div>
+            <div class="side back">
+                夕阳下的风景
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
