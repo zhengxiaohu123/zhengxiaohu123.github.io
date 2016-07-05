@@ -32,7 +32,31 @@
     margin: 0 10px;
 }
 
+.banner-submit{
+ width:68px;
+    height: 37px;
+    border: 0;
+    background: url(http://i0.sinaimg.cn/dy/main/rollzt/02/news_all.png) 0 -151px no-repeat;
+    cursor: pointer;
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.banner-input{
+    width: 205px;
+    height: 35px;
+    line-height: 35px;
+    border-right: 0;
+    border-radius: 3px 0 0 3px;
+    float: left;
+    padding-left: 5px;
+    margin-top: 10px;
+    font-family: "Microsoft Yahei","SimSun";
+}
 
+.row .col-sm-8 p{
+    border-right: 1px solid #ccc;
+}
 /*主体部分样式*/
 
 .title-img {
